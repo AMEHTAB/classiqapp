@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClassIQ - Empower Your Learning Journey</title>
+    <link rel="shortcut icon" href="./asset/image/Group 2827.svg" type="image/x-icon">
+    
+    <!-- Local Fonts -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="signup.css">
+    
+    <!-- FontAwesome / Boxicons for Social and List Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <div class="logo-nav-container">
+                <a href="./index.html" class="logo">
+                    <div class="logo-icon">
+                        <img width="49" height="49" style="margin-right: 13px;" src="./asset/image/Group 2827.svg" alt="brand-logo">
+                    </div>
+                    <span class="logo-text">ClassIQ</span>
+                </a>
+    
+                <nav class="desktop-menu">
+                    <a href="./course.html" class="nav-link">Courses</a>
+                </nav>
+            </div>
+
+            <div class="nav-right">
+                <a href="./login.html" class="btn btn-dark">Login</a>
+                <a href="./signup.html" class="btn btn-dark">SignUp</a>
+            </div>
+
+            <button class="hamburger" id="hamburgerBtn" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <div class="mobile-drawer" id="mobileDrawer">
+            <a href="./course.html" class="mobile-link">Courses</a>
+            <div class="mobile-auth">
+                <a href="./login.html" class="btn btn-dark">Login</a>
+                <a href="./signup.html" class="btn btn-dark">SignUp</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="signup-page">
+        <section class="signup-card">
+            <h1>SignUp</h1>
+
+            <form class="signup-form">
+                <input
+                    type="email"
+                    placeholder="Enter Your Email"
+                    required
+                >
+
+                <input
+                    type="text"
+                    placeholder="Enter Your Fullname"
+                    required
+                >
+
+                <input
+                    type="password"
+                    placeholder="Enter Your Password"
+                    required
+                >
+
+                <button type="submit" class="signup-submit">
+                    SignUp
+                </button>
+            </form>
+
+            <p class="login-text">
+                Already have an account?
+                <a href="./login.html">Login</a>
+            </p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
